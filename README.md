@@ -109,6 +109,3 @@ mvn test
 
 This project is for educational purposes.
 
----
-
-**Author:**
