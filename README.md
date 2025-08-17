@@ -40,27 +40,29 @@ This is a desktop Employee Management System built with Java Swing and Hibernate
 ## Project Structure
 
 ```
-src/
-  main/
-    java/
-      hibernate.cfg.xml
-      com/
-        kodnest/
-          EMSUsingHibernate/
-            App.java
-            Employee.java
-            MainFrame.java
-            AddEmployeeFrame.java
-            ViewEmployeeFrame.java
-            UpdateEmployeeFrame.java
-            DeleteEmployeeFrame.java
-test/
-  java/
-    com/
-      kodnest/
-        EMSUsingHibernate/
-          AppTest.java
-pom.xml
+EMSUsingHibernate/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       ├── hibernate.cfg.xml
+│   │       └── com/
+│   │           └── kodnest/
+│   │               └── EMSUsingHibernate/
+│   │                   ├── App.java
+│   │                   ├── Employee.java
+│   │                   ├── MainFrame.java
+│   │                   ├── AddEmployeeFrame.java
+│   │                   ├── ViewEmployeeFrame.java
+│   │                   ├── UpdateEmployeeFrame.java
+│   │                   └── DeleteEmployeeFrame.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── kodnest/
+│                   └── EMSUsingHibernate/
+│                       └── AppTest.java
+├── pom.xml
+└── README.md
 ```
 
 ---
